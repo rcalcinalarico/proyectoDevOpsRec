@@ -64,3 +64,23 @@ Este proyecto es una tienda de productos tecnológicos con Node.js, BD PostgreSQ
 - `POST /products` - Crear producto
 - `PUT /products/:id` - Actualizar producto
 - `DELETE /products/:id` - Eliminar producto
+
+## 📋 Probando endpoints desde thunder client
+
+- `GET http://localhost:3000/` - probando conexion, retorna fecha y hora
+
+- `GET http://localhost:3000/products` - Listar productos
+
+- `POST http://localhost:3000/products` - registrar producto
+
+  - Haz clic en la pestaña Body.
+  - Selecciona el tipo JSON.
+    Enviar datos como JSON. (pegar este json ahi)
+  - click en send o enviar
+
+  {
+  "name": "Cuaderno universitario",
+  "description": "Cuaderno de 100 hojas",
+  "price": 15.50,
+  "stock": 30
+  }
