@@ -84,3 +84,18 @@ Este proyecto es una tienda de productos tecnológicos con Node.js, BD PostgreSQ
   "price": 15.50,
   "stock": 30
   }
+
+- Para ambos casos eliminar actualizar cambiar 1, por el ID del producto deseado
+
+- `DELETE http://localhost:3000/products/1` - eliminar por el ID del producto
+- `PUT http://localhost:3000/products/1` - actualizar por el ID del producto
+  - Haz clic en la pestaña Body.
+  - Selecciona el tipo JSON.
+    Enviar datos como JSON. (pegar este json ahi)
+  - click en send o enviar
+    {
+    "name": "Cuaderno espiral",
+    "description": "Cuaderno de 200 hojas",
+    "price": 25.99,
+    "stock": 40
+    }
